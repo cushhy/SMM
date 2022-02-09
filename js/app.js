@@ -1,4 +1,7 @@
 $(document).ready(function () {
+
+    // Ползунок
+
     $(".point").on("click", function (e) {
         let getTotalPoints = $(".point").length,
             getIndex = $(this).index();
@@ -25,8 +28,37 @@ $(document).ready(function () {
     classFunction();
     $(window).resize(classFunction);
 
+    // Слайдер
+
     $('.cooperation__slider,.slider__review').slick({
 
     });
+
+    // Показать текст комментария
+
+
+    $(".main__review").elimore({
+        moreText: "Читать полностью",
+        showOnly: true,
+        maxLength: 700,
+    });
+
+    // Скролл к блокам
+
+    $("[data-scroll]").on("click", function (event) {
+        event.preventDefault();
+
+        var $this = $(this)
+        blockId = $this.data('scroll'),
+            blockOffset = $(blockId).offset().top;
+
+        $('nav a').removeClass('active');
+        $this.addClass('active');
+
+        $('html, body').animate({
+            scrollTop: blockOffset
+        }, 1000)
+    })
+
 
 })
