@@ -2261,13 +2261,13 @@ html, body {
 .popup__title {
   margin: 0 0 30px 0;
   font-family: FuturaDemi;
-  font-size: 2.1rem;
+  font-size: 32px;
   text-align: center;
 }
 
 @media (max-width: 37.5em) {
   .popup__title {
-    font-size: 1.2rem;
+    font-size: 18px;
   }
 }
 
@@ -2300,12 +2300,12 @@ html, body {
 
 .checkbox__popup label {
   font-family: FuturaBook;
-  font-size: 1.25rem;
+  font-size: 20px;
 }
 
 @media (max-width: 37.5em) {
   .checkbox__popup label {
-    font-size: 0.9rem;
+    font-size: 15px;
   }
 }
 
@@ -2382,16 +2382,16 @@ html, body {
 
 @media (max-width: 37.5em) {
   .popup__name input::-webkit-input-placeholder {
-    font-size: 0.88rem;
+    font-size: 17px;
   }
   .popup__name input:-ms-input-placeholder {
-    font-size: 0.88rem;
+    font-size: 17px;
   }
   .popup__name input::-ms-input-placeholder {
-    font-size: 0.88rem;
+    font-size: 17px;
   }
   .popup__name input::placeholder {
-    font-size: 0.88rem;
+    font-size: 17px;
   }
 }
 
@@ -2425,19 +2425,19 @@ html, body {
   margin: 0 0 15px 0;
   color: #253758;
   font-family: FuturaMedium;
-  font-size: 1.1rem;
+  font-size: 18px;
 }
 
 @media (max-width: 37.5em) {
   .popup__telephone label {
-    font-size: 1rem;
+    font-size: 16px;
   }
 }
 
 .popup__telephone input {
   padding: 26px 200px 26px 30px;
   font-family: FuturaBook;
-  font-size: 1.1rem;
+  font-size: 18px;
   color: #656789;
   border: none;
   background-color: #ECEFF5;
@@ -2462,16 +2462,16 @@ html, body {
 
 @media (max-width: 37.5em) {
   .popup__telephone input::-webkit-input-placeholder {
-    font-size: 0.88rem;
+    font-size: 15px;
   }
   .popup__telephone input:-ms-input-placeholder {
-    font-size: 0.88rem;
+    font-size: 15px;
   }
   .popup__telephone input::-ms-input-placeholder {
-    font-size: 0.88rem;
+    font-size: 15px;
   }
   .popup__telephone input::placeholder {
-    font-size: 0.88rem;
+    font-size: 15px;
   }
 }
 
@@ -2503,7 +2503,7 @@ html, body {
   padding: 21px 63px;
   text-decoration: none;
   font-family: FuturaMedium;
-  font-size: 1.22rem;
+  font-size: 22px;
   color: #fff;
   text-align: center;
   background: -webkit-gradient(linear, left top, right top, color-stop(5.45%, #FF641E), color-stop(95.19%, #FF9447));
@@ -2521,14 +2521,14 @@ html, body {
 @media (max-width: 37.5em) {
   .popup__button {
     padding: 20px 51px;
-    font-size: 1rem;
+    font-size: 16px;
   }
 }
 
 .popup__politic {
   margin: 30px 0 0 0;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 22px;
   color: #253758;
   text-decoration: none;
 }
@@ -2540,7 +2540,7 @@ html, body {
 @media (max-width: 37.5em) {
   .popup__politic {
     margin: 20px 0 0 0;
-    font-size: 0.9rem;
+    font-size: 17px;
     color: #FF9447;
     text-decoration: underline;
   }
@@ -2632,7 +2632,7 @@ html, body {
 .thankyou__title {
   margin: 0 0 30px 0;
   font-family: FuturaDemi;
-  font-size: 2.1rem;
+  font-size: 32px;
   text-align: center;
 }
 
@@ -2645,14 +2645,14 @@ html, body {
 .thankyou__subtitle {
   margin: 0 0 30px 0;
   font-family: FuturaBook;
-  font-size: 1.3rem;
+  font-size: 26px;
   color: #656789;
   text-align: center;
 }
 
 @media (max-width: 37.5em) {
   .thankyou__subtitle {
-    font-size: 1rem;
+    font-size: 16px;
   }
 }
 
