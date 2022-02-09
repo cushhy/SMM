@@ -1173,14 +1173,34 @@ html, body {
   box-shadow: 0px 0px 20px 15px rgba(255, 116, 40, 0.3);
 }
 
+@media (max-width: 37.5em) {
+  .slick-arrow {
+    width: 32px;
+    height: 32px;
+  }
+}
+
 .slick-arrow.slick-prev {
   left: -2%;
   background: url(../assets/img/prev.svg) 0 0 no-repeat;
 }
 
+@media (max-width: 37.5em) {
+  .slick-arrow.slick-prev {
+    background: url(../assets/img/prevmob.svg) 0 0 no-repeat;
+  }
+}
+
 .slick-arrow.slick-next {
   right: 1%;
   background: url(../assets/img/next.svg) 0 0 no-repeat;
+}
+
+@media (max-width: 37.5em) {
+  .slick-arrow.slick-next {
+    right: -2%;
+    background: url(../assets/img/nextmob.svg) 0 0 no-repeat;
+  }
 }
 
 .swiper-button-next::after, .swiper-button-prev::after {
