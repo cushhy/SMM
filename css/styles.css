@@ -809,20 +809,23 @@ html, body {
             transform: translate(0, 1600%);
   }
   .bullet.left {
-    -webkit-transform: translate(1830%, 700%);
-            transform: translate(1830%, 700%);
+    -webkit-transform: translate(0, 700%);
+            transform: translate(0, 700%);
+    position: absolute;
+    right: 48.5%;
+    top: 0;
   }
   .bullet.left.first {
-    -webkit-transform: translate(1830%, 0);
-            transform: translate(1830%, 0);
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
   }
   .bullet.left.second {
-    -webkit-transform: translate(1830%, 400%);
-            transform: translate(1830%, 400%);
+    -webkit-transform: translate(0, 400%);
+            transform: translate(0, 400%);
   }
   .bullet.left.last {
-    -webkit-transform: translate(1830%, 900%);
-            transform: translate(1830%, 900%);
+    -webkit-transform: translate(0, 900%);
+            transform: translate(0, 900%);
   }
 }
 
