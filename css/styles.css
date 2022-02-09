@@ -2037,6 +2037,7 @@ html, body {
 
 .footer__logo svg {
   margin: 0 0 10px 0;
+  fill: #fff;
 }
 
 @media (max-width: 76.3em) {
