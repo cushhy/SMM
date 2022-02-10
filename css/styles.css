@@ -1153,6 +1153,14 @@ html, body {
   }
 }
 
+@media (max-width: 37.5em) {
+  .discount__photo {
+    margin: 0;
+    margin-top: 50px;
+    width: 100%;
+  }
+}
+
 .discount__button {
   padding: 21px 66px;
   font-family: FuturaMedium;
@@ -1412,8 +1420,20 @@ html, body {
   width: 50%;
 }
 
+@media (max-width: 37.5em) {
+  .case__sells {
+    width: 100%;
+  }
+}
+
 .case__text {
   width: 50%;
+}
+
+@media (max-width: 37.5em) {
+  .case__text {
+    width: 100%;
+  }
 }
 
 .case__title {
