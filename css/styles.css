@@ -125,7 +125,7 @@ html, body {
 
 @media (max-width: 37.5em) {
   .container {
-    max-width: 90vw;
+    max-width: 91vw;
   }
 }
 
@@ -936,20 +936,13 @@ html, body {
     font-size: 16px;
   }
   .label.right {
-    -webkit-transform: translate(-80%, 0);
-    transform: translate(-87%, 175%);
-  }
-  .label.right.first {
-    -webkit-transform: translate(-91%, 175%);
-            transform: translate(-91%, 175%);
-  }
-  .label.right.second {
-    -webkit-transform: translate(-98%, 322%);
-            transform: translate(-98%, 322%);
+    min-width: 180px;
+    text-align: center;
+    right: 20%;
+    top: 800%;
   }
   .label.right.last {
-    -webkit-transform: translate(-97%, -71%);
-            transform: translate(-97%, -71%);
+    margin-top: 0;
   }
   .label.left {
     -webkit-transform: translate(-100%, 0);
