@@ -933,31 +933,39 @@ html, body {
 
 @media (max-width: 37.5em) {
   .label {
-    font-size: 18px;
+    font-size: 16px;
   }
   .label.right {
     -webkit-transform: translate(-80%, 0);
     transform: translate(-87%, 175%);
   }
+  .label.right.first {
+    -webkit-transform: translate(-91%, 175%);
+            transform: translate(-91%, 175%);
+  }
+  .label.right.second {
+    -webkit-transform: translate(-98%, 322%);
+            transform: translate(-98%, 322%);
+  }
   .label.right.last {
-    -webkit-transform: translate(-87%, 0%);
-            transform: translate(-87%, 0%);
+    -webkit-transform: translate(-97%, -71%);
+            transform: translate(-97%, -71%);
   }
   .label.left {
     -webkit-transform: translate(-100%, 0);
     transform: translate(-120%, -100%);
   }
   .label.left.first {
-    -webkit-transform: translate(-110%, -100%);
-            transform: translate(-110%, -100%);
+    -webkit-transform: translate(-120%, -235%);
+            transform: translate(-120%, -235%);
   }
   .label.left.second {
-    -webkit-transform: translate(-122%, -100%);
-            transform: translate(-122%, -100%);
+    -webkit-transform: translate(-129%, -183%);
+            transform: translate(-129%, -183%);
   }
   .label.left.last {
-    -webkit-transform: translate(-130%, 0);
-            transform: translate(-130%, 0);
+    -webkit-transform: translate(-142%, -40%);
+            transform: translate(-142%, -40%);
   }
 }
 
