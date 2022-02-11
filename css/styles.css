@@ -1464,17 +1464,13 @@ html, body {
   background-image: url(../assets/img/brand5.png);
 }
 
-.cooperation__slider .slick-dots li.slick-active button {
-  background-color: rgba(0, 0, 0, 0);
-}
-
 .cooperation__slider .slick-dots button {
   font-size: 0;
   width: 52px;
   height: 52px;
   border: none;
   border-radius: 50%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .slider__review .slick-dots {
