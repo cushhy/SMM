@@ -1464,16 +1464,20 @@ html, body {
   }
 }
 
+.slider {
+  position: relative;
+  margin-bottom: 20px;
+}
+
 .slider__review .slick-arrow.slick-next {
-  right: -2%;
+  right: -3%;
 }
 
 .slider__review .slick-arrow.slick-prev {
-  left: -2%;
+  left: -3%;
 }
 
 .cooperation__slider .slick-dots {
-  margin-top: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
