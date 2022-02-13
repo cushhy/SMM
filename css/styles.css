@@ -1434,6 +1434,7 @@ html, body {
 
 @media (max-width: 37.5em) {
   .slick-arrow {
+    top: 40%;
     width: 32px;
     height: 32px;
   }
@@ -1446,6 +1447,7 @@ html, body {
 
 @media (max-width: 37.5em) {
   .slick-arrow.slick-prev {
+    left: -3%;
     background: url(../assets/img/prevmob.svg) 0 0 no-repeat;
   }
 }
@@ -1457,7 +1459,7 @@ html, body {
 
 @media (max-width: 37.5em) {
   .slick-arrow.slick-next {
-    right: -2%;
+    right: -3%;
     background: url(../assets/img/nextmob.svg) 0 0 no-repeat;
   }
 }
