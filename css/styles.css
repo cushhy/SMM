@@ -664,6 +664,16 @@ html, body {
   }
 }
 
+.result__progressbar {
+  margin-bottom: 200px;
+}
+
+@media (max-width: 37.5em) {
+  .result__progressbar {
+    margin-bottom: 50px;
+  }
+}
+
 .progress {
   margin: 100px auto 0 auto;
   position: relative;
@@ -989,10 +999,6 @@ html, body {
 
 .point--active .label::before {
   background-color: #fff;
-}
-
-.result__scrolldwn {
-  margin-top: 100px;
 }
 
 .result__scrolldwn p {
@@ -1483,7 +1489,7 @@ html, body {
 }
 
 .cooperation__slider .slick-dots li:first-child {
-  background-image: url(../assets/img/brand1.png);
+  background-image: url(../assets/img/brand1.svg);
 }
 
 @media (max-width: 37.5em) {
@@ -1495,7 +1501,7 @@ html, body {
 }
 
 .cooperation__slider .slick-dots li:nth-child(2) {
-  background-image: url(../assets/img/brand2.png);
+  background-image: url(../assets/img/brand2.svg);
 }
 
 @media (max-width: 37.5em) {
@@ -1507,7 +1513,7 @@ html, body {
 }
 
 .cooperation__slider .slick-dots li:nth-child(3) {
-  background-image: url(../assets/img/brand3.png);
+  background-image: url(../assets/img/brand3.svg);
 }
 
 @media (max-width: 37.5em) {
@@ -1519,7 +1525,7 @@ html, body {
 }
 
 .cooperation__slider .slick-dots li:nth-child(4) {
-  background-image: url(../assets/img/brand4.png);
+  background-image: url(../assets/img/brand4.svg);
 }
 
 @media (max-width: 37.5em) {
@@ -1531,7 +1537,7 @@ html, body {
 }
 
 .cooperation__slider .slick-dots li:nth-child(5) {
-  background-image: url(../assets/img/brand5.png);
+  background-image: url(../assets/img/brand5.svg);
 }
 
 @media (max-width: 37.5em) {
