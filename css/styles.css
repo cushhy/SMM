@@ -1588,7 +1588,7 @@ html, body {
 }
 
 .slider__review .slick-dots li:first-child {
-  background-image: url(../assets/img/review_slider-ava1.png);
+  background-image: url(../assets/img/review_slider-ava1.svg);
 }
 
 @media (max-width: 37.5em) {
@@ -1600,7 +1600,7 @@ html, body {
 }
 
 .slider__review .slick-dots li:nth-child(2) {
-  background-image: url(../assets/img/review_slider-ava2.png);
+  background-image: url(../assets/img/review_slider-ava2.svg);
 }
 
 @media (max-width: 37.5em) {
@@ -1612,7 +1612,7 @@ html, body {
 }
 
 .slider__review .slick-dots li:nth-child(3) {
-  background-image: url(../assets/img/review_slider-ava4.png);
+  background-image: url(../assets/img/review_slider-ava4.svg);
 }
 
 @media (max-width: 37.5em) {
@@ -1624,7 +1624,7 @@ html, body {
 }
 
 .slider__review .slick-dots li:nth-child(4) {
-  background-image: url(../assets/img/review_slider-ava3.png);
+  background-image: url(../assets/img/review_slider-ava3.svg);
 }
 
 @media (max-width: 37.5em) {
@@ -1636,7 +1636,7 @@ html, body {
 }
 
 .slider__review .slick-dots li:nth-child(5) {
-  background-image: url(../assets/img/review_slider-ava5.png);
+  background-image: url(../assets/img/review_slider-ava5.svg);
 }
 
 @media (max-width: 37.5em) {
