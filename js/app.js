@@ -40,6 +40,14 @@ $(document).ready(function () {
         adaptiveHeight: true,
     });
 
+    // Слайдер
+
+    $('#reed').on("click", function () {
+        $('.main__review').addClass('visible');
+        $('.bottom').addClass('hide');
+        $('.slider__review').slick('setPosition');
+    })
+
 
     // Скролл к блокам
 
