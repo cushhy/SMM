@@ -28,6 +28,7 @@ $(document).ready(function () {
     classFunction();
     $(window).resize(classFunction);
 
+
     // Слайдер
 
     $('.cooperation__slider').slick({
@@ -36,16 +37,9 @@ $(document).ready(function () {
 
     $('.slider__review').slick({
         dots: true,
+        adaptiveHeight: true,
     });
 
-    // Показать текст комментария
-
-
-    $(".main__review").elimore({
-        moreText: "Читать полностью",
-        showOnly: true,
-        maxLength: 700,
-    });
 
     // Скролл к блокам
 
