@@ -224,7 +224,7 @@ html, body {
 }
 
 .intro {
-  padding-bottom: 60px;
+  padding-bottom: 74px;
   background-image: url(../assets/img/intro_background.png), linear-gradient(72.56deg, #152035 7.61%, #212F4A 84.9%);
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -239,7 +239,7 @@ html, body {
 }
 
 .intro__inner {
-  padding-top: 158px;
+  padding-top: 108px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -435,7 +435,7 @@ html, body {
 }
 
 .technology {
-  padding: 80px 0;
+  padding: 165px 0;
 }
 
 @media (max-width: 37.5em) {
@@ -573,7 +573,7 @@ html, body {
 }
 
 .result {
-  padding: 70px 0 50px 0;
+  padding: 163px 0 163px 0;
   position: relative;
   overflow: hidden;
   background-image: url(../assets/img/result_bg.png), linear-gradient(72.56deg, #152035 7.61%, #212F4A 84.9%);
@@ -1023,7 +1023,7 @@ html, body {
 
 .bgtext {
   position: absolute;
-  bottom: 0;
+  top: 15%;
   right: -1%;
   z-index: 1;
   color: #273857;
@@ -1050,6 +1050,10 @@ html, body {
   }
 }
 
+.bgtext.spec {
+  top: 2.5%;
+}
+
 @media (max-width: 115.5em) {
   .bgtext.spec {
     display: none;
@@ -1057,7 +1061,7 @@ html, body {
 }
 
 .discount {
-  padding: 46px 0 0 0;
+  padding: 86px 0 0 0;
 }
 
 @media (max-width: 96.5em) {
@@ -1076,9 +1080,9 @@ html, body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @media (max-width: 76.3em) {
@@ -1091,7 +1095,7 @@ html, body {
 }
 
 .discount__list {
-  margin: 0 118px 0 0;
+  margin: 90px 118px 0 0;
 }
 
 @media (max-width: 96.5em) {
@@ -1175,6 +1179,8 @@ html, body {
 }
 
 .discount__text {
+  max-width: 369px;
+  max-height: 109px;
   margin-left: 39px;
   font-size: 22px;
 }
@@ -1194,11 +1200,10 @@ html, body {
 }
 
 .discount__subtitle {
-  max-width: 456px;
+  max-width: 491px;
   margin-bottom: 50px;
   font-family: FuturaBook;
   font-size: 22px;
-  line-height: 1.36;
 }
 
 @media (max-width: 115em) {
@@ -1219,6 +1224,10 @@ html, body {
     width: 100%;
     margin-bottom: 29px;
   }
+}
+
+.discount__img {
+  max-width: 917px;
 }
 
 @media (max-width: 37.5em) {
@@ -1344,6 +1353,7 @@ html, body {
 }
 
 .cooperation__title {
+  max-width: 676px;
   font-family: FuturaHeavy;
   font-size: 40px;
   color: #fff;
@@ -1673,6 +1683,10 @@ html, body {
   text-align: center;
 }
 
+.case {
+  padding: 60px 0 84px 0;
+}
+
 @media (max-width: 37.5em) {
   .case {
     padding: 50px 0;
@@ -1711,6 +1725,7 @@ html, body {
 }
 
 .case__text {
+  margin-bottom: 35px;
   width: 50%;
 }
 
@@ -1807,7 +1822,7 @@ html, body {
 }
 
 .try {
-  padding: 162px 0 101px 0;
+  padding: 162px 0 201px 0;
   position: relative;
   overflow: hidden;
   background-image: url(../assets/img/trybg.png), linear-gradient(72.56deg, #152035 7.61%, #212F4A 84.9%);
@@ -2313,6 +2328,7 @@ html, body {
 }
 
 .form__items li {
+  max-width: 607px;
   color: #FF7428;
 }
 
@@ -2487,7 +2503,7 @@ html, body {
 }
 
 .form__telephone input {
-  padding: 26px 200px 26px 30px;
+  padding: 26px 180px 26px 30px;
   font-family: FuturaBook;
   font-size: 18px;
   color: #656789;

@@ -292,7 +292,7 @@
             <div class="container">
                 <div class="case__inner">
                     <div class="case__sells">
-                        <img class="case__graphic responsive" src="assets/img/morecase.svg" alt="">
+                        <img class="case__graphic responsive" src="assets/img/morecase.png" alt="">
                     </div>
                     <div class="case__text">
                         <div class="case__title">Хотите изучить <span>больше кейсов?</span></div>
@@ -616,12 +616,12 @@
                 <form class="form__main">
                     <div class="form__name">
                         <label for="name">Ваше имя:</label>
-                        <input type="text" id="name" placeholder="Евгений">
+                        <input type="text" id="name" placeholder="Евгений" maxlength="15">
                         <img src="assets/img/formuser.svg" alt="">
                     </div>
                     <div class="form__telephone">
                         <label for="name">Телефон:</label>
-                        <input type="text" id="name" placeholder="+ 38 (067) 345-55-33">
+                        <input type="text" id="tel" maxlength="25" placeholder="+38">
                         <img src="assets/img/formtelephone.svg" alt="">
                     </div>
                     <div class="form__buttons">
@@ -715,12 +715,21 @@
 
 
     <!-- Jquerry -->
+    <script src="https://unpkg.com/imask"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="js/jquery.elimore.min.js"></script>
     <script src="js/app.js"></script>
 
 
+
+    <script>
+        var element = document.getElementById('tel');
+        var maskOptions = {
+            mask: '+{38} (000) 000-00-00'
+        };
+        var mask = IMask(element, maskOptions);
+    </script>
 
 </body>
 
