@@ -1500,7 +1500,6 @@ html, body {
 
 @media (max-width: 37.5em) {
   .cooperation__slider .slick-dots li:first-child {
-    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -1512,7 +1511,6 @@ html, body {
 
 @media (max-width: 37.5em) {
   .cooperation__slider .slick-dots li:nth-child(2) {
-    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -1524,7 +1522,6 @@ html, body {
 
 @media (max-width: 37.5em) {
   .cooperation__slider .slick-dots li:nth-child(3) {
-    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -1536,7 +1533,6 @@ html, body {
 
 @media (max-width: 37.5em) {
   .cooperation__slider .slick-dots li:nth-child(4) {
-    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -1548,7 +1544,6 @@ html, body {
 
 @media (max-width: 37.5em) {
   .cooperation__slider .slick-dots li:nth-child(5) {
-    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -1659,11 +1654,19 @@ html, body {
 
 .slider__review .slick-dots button {
   font-size: 0;
-  width: 42px;
-  height: 42px;
+  width: 52px;
+  height: 52px;
   border-radius: 50%;
   border: none;
-  background-color: rgba(192, 192, 192, 0.6);
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 37.5em) {
+  .slider__review .slick-dots button {
+    padding: 0;
+    width: 42px;
+    height: 42px;
+  }
 }
 
 .brands {
@@ -1951,12 +1954,12 @@ html, body {
   }
 }
 
-.trydirector-mob {
+.try__director-mob {
   display: none;
 }
 
 @media (max-width: 37.5em) {
-  .trydirector-mob {
+  .try__director-mob {
     display: block;
   }
 }
@@ -2176,9 +2179,8 @@ html, body {
 }
 
 .social__author {
-  position: relative;
-  top: -33px;
-  left: -45px;
+  margin: 0 0 0 5px;
+  position: absolute;
   width: 24px;
   height: 24px;
   border-radius: 20%;
@@ -2198,6 +2200,13 @@ html, body {
 
 .social__author.insta {
   fill: #FF641E;
+}
+
+@media (max-width: 37.5em) {
+  .social__author {
+    top: -31.7px;
+    left: 54%;
+  }
 }
 
 .form {
