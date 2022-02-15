@@ -40,14 +40,35 @@ $(document).ready(function () {
         adaptiveHeight: true,
     });
 
-    // Слайдер
-
-    $('#reed').on("click", function () {
-        $('.main__review').addClass('visible');
-        $('.bottom').addClass('hide');
+    $('#showMore').on('click', function () {
+        $('.dots').css('display', 'none');
+        $('.more').css('display', 'inline');
         $('.slider__review').slick('setPosition');
     })
 
+    $('#showMore-second').on('click', function () {
+        $('.dots-second').css('display', 'none');
+        $('.more-second').css('display', 'inline');
+        $('.slider__review').slick('setPosition');
+    })
+
+    $('#showMore-third').on('click', function () {
+        $('.dots-third').css('display', 'none');
+        $('.more-third').css('display', 'inline');
+        $('.slider__review').slick('setPosition');
+    })
+
+    $('#showMore-fourth').on('click', function () {
+        $('.dots-fourth').css('display', 'none');
+        $('.more-fourth').css('display', 'inline');
+        $('.slider__review').slick('setPosition');
+    })
+
+    $('#showMore-fifth').on('click', function () {
+        $('.dots-fifth').css('display', 'none');
+        $('.more-fifth').css('display', 'inline');
+        $('.slider__review').slick('setPosition');
+    })
 
     // Скролл к блокам
 

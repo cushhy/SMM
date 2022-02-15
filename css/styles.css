@@ -2180,8 +2180,6 @@ html, body {
 
 .main__review {
   max-width: 1100px;
-  max-height: 230px;
-  overflow: hidden;
   margin-left: 167px;
   position: relative;
   width: 100%;
@@ -2189,6 +2187,17 @@ html, body {
   font-size: 20px;
   line-height: 1.2;
   z-index: 10;
+}
+
+.main__review a {
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  font-size: 15px;
+  cursor: pointer;
+  color: #FF7428;
+  text-decoration: none;
+  border-bottom: 1px dashed rgba(255, 116, 40, 0.8);
 }
 
 @media (max-width: 115em) {
@@ -2207,40 +2216,79 @@ html, body {
   }
 }
 
-.main__review .bottom {
-  width: 100%;
-  height: 200px;
-  opacity: 1;
-  position: absolute;
-  bottom: 0;
-  z-index: 1;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), color-stop(80%, white));
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), white 80%);
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
-}
-
-.main__review .bottom.hide {
-  display: none;
-}
-
-.main__review.visible {
-  max-width: auto;
-  max-height: 1000px;
-  overflow: visible;
-}
-
-.reedmore {
-  background: none;
+#showMore {
+  cursor: pointer;
   border: none;
-  position: absolute;
-  top: 93%;
-  left: 16.5%;
+  background: none;
   font-size: 15px;
   cursor: pointer;
   color: #FF7428;
   text-decoration: none;
   border-bottom: 1px dashed rgba(255, 116, 40, 0.8);
+}
+
+#showMore-second {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: 15px;
+  cursor: pointer;
+  color: #FF7428;
+  text-decoration: none;
+  border-bottom: 1px dashed rgba(255, 116, 40, 0.8);
+}
+
+#showMore-third {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: 15px;
+  cursor: pointer;
+  color: #FF7428;
+  text-decoration: none;
+  border-bottom: 1px dashed rgba(255, 116, 40, 0.8);
+}
+
+#showMore-fourth {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: 15px;
+  cursor: pointer;
+  color: #FF7428;
+  text-decoration: none;
+  border-bottom: 1px dashed rgba(255, 116, 40, 0.8);
+}
+
+#showMore-fifth {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: 15px;
+  cursor: pointer;
+  color: #FF7428;
+  text-decoration: none;
+  border-bottom: 1px dashed rgba(255, 116, 40, 0.8);
+}
+
+.more {
+  display: none;
+}
+
+.more-second {
+  display: none;
+}
+
+.more-third {
+  display: none;
+}
+
+.more-fourth {
+  display: none;
+}
+
+.more-fifth {
+  display: none;
 }
 
 .slick-list.moove {
