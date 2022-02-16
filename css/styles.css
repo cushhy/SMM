@@ -126,7 +126,7 @@ html, body {
 @media (max-width: 37.5em) {
   .container {
     max-width: 90vw;
-    padding: 0 15px;
+    padding: 0;
   }
 }
 
