@@ -539,7 +539,6 @@ html, body {
 }
 
 .mobiletech {
-  min-width: 463px;
   display: none;
 }
 
@@ -547,6 +546,7 @@ html, body {
   .mobiletech {
     display: block;
     margin: 0 auto;
+    margin-bottom: 50px;
   }
 }
 
