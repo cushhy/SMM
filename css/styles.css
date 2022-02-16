@@ -990,7 +990,7 @@ html, body {
   position: absolute;
   margin: 70px 0 0 0;
   -webkit-transform: translate(-50%, 0);
-  transform: translate(-50%, -41px);
+  transform: translate(-47.2%, -25px);
 }
 
 .label::before {
@@ -1020,6 +1020,10 @@ html, body {
     text-align: center;
     left: 100px;
     top: 800%;
+  }
+  .label.right.first {
+    -webkit-transform: translate(-47.2%, -41px);
+            transform: translate(-47.2%, -41px);
   }
   .label.right.last {
     margin-top: 0;
@@ -1114,7 +1118,7 @@ html, body {
 }
 
 .discount {
-  padding: 96px 0 0 0;
+  padding: 96px 0 50px 240px;
 }
 
 @media (max-width: 96.5em) {
@@ -1302,6 +1306,10 @@ html, body {
   .discount__img-mob {
     display: block;
   }
+}
+
+.discount__photo {
+  min-width: 917px;
 }
 
 @media (max-width: 76.3em) {
