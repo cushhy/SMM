@@ -1391,7 +1391,8 @@ html, body {
 
 @media (max-width: 37.5em) {
   .cooperation__suptitle {
-    margin: 0 0 10px 9px;
+    max-width: 308px;
+    margin: 0 auto 10px auto;
     width: 100%;
     font-size: 15px;
     text-align: left;
@@ -1418,7 +1419,8 @@ html, body {
 
 @media (max-width: 37.5em) {
   .cooperation__title {
-    margin: 0 0 20px 9px;
+    margin: 0 auto 20px auto;
+    max-width: 308px;
     width: 100%;
     font-size: 20px;
     text-align: left;
