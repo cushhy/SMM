@@ -428,8 +428,8 @@ html, body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    font-size: 1.1rem;
-    padding: 21px 30px;
+    font-size: 17px;
+    padding: 21px 15px;
   }
 }
 
@@ -712,7 +712,7 @@ html, body {
 
 @media (max-width: 37.5em) {
   .result__progressbar {
-    margin-bottom: 50px;
+    margin-bottom: 0;
   }
 }
 
@@ -735,7 +735,7 @@ html, body {
 
 @media (max-width: 37.5em) {
   .progress {
-    margin-top: 150px;
+    margin-top: 40px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -759,7 +759,7 @@ html, body {
 @media (max-width: 37.5em) {
   .bar {
     width: 6px;
-    height: 100%;
+    height: 454px;
   }
 }
 
@@ -874,10 +874,31 @@ html, body {
   }
   .point.right {
     left: 48.9%;
-    -webkit-transform: translate(0, -1000%);
-            transform: translate(0, -1000%);
+    -webkit-transform: translate(0, -210%);
+            transform: translate(0, -210%);
+  }
+  .point.right.first {
+    -webkit-transform: translate(0, -300%);
+            transform: translate(0, -300%);
+  }
+  .point.right.second {
+    -webkit-transform: translate(0, -980%);
+            transform: translate(0, -980%);
   }
   .point.right:last-child {
+    -webkit-transform: translate(0, -77px);
+            transform: translate(0, -77px);
+  }
+  .point.left {
+    top: 80px;
+  }
+  .point.left.second {
+    top: 25px;
+  }
+  .point.left.last {
+    top: -37px;
+  }
+  .point.left:last-child {
     -webkit-transform: translate(0, 0);
             transform: translate(0, 0);
   }
@@ -918,6 +939,9 @@ html, body {
 }
 
 @media (max-width: 37.5em) {
+  .bullet {
+    -webkit-box-shadow: 0 0 0 7px #fff;
+  }
   .bullet.right {
     -webkit-transform: translate(0, 1200%);
             transform: translate(0, 1200%);
@@ -952,6 +976,13 @@ html, body {
   -webkit-box-shadow: 0 0 0 10px #FF8B37;
 }
 
+@media (max-width: 37.5em) {
+  .point--complete .bullet,
+  .point--active .bullet {
+    -webkit-box-shadow: 0 0 0 7px #FF8B37;
+  }
+}
+
 .point--complete .bullet {
   background: #FF8B37;
 }
@@ -960,6 +991,12 @@ html, body {
   background: #fff;
   -webkit-box-shadow: 0 0 16px 10px #FF8B37, 0 0 0 10px #FF8B37;
   box-shadow: 0 0 16px 10px #FF8B37, 0 0 0 10px #FF8B37;
+}
+
+@media (max-width: 37.5em) {
+  .point--active .bullet {
+    -webkit-box-shadow: 0 0 0 7px #FF8B37;
+  }
 }
 
 .point--active, .point--complete {
@@ -1020,8 +1057,8 @@ html, body {
             transform: translate(-50%, 34px);
   }
   .label.right.second {
-    -webkit-transform: translate(-50%, -8px);
-            transform: translate(-50%, -8px);
+    -webkit-transform: translate(-50%, -5px);
+            transform: translate(-50%, -5px);
   }
   .label.left {
     max-width: 86px;
@@ -1047,7 +1084,6 @@ html, body {
 }
 
 .result__scrolldwn p {
-  margin: 0 0 20px 0;
   color: #FF9447;
   font-size: 22px;
   font-family: "FuturaMedium";
@@ -1055,7 +1091,7 @@ html, body {
 
 @media (max-width: 37.5em) {
   .result__scrolldwn p {
-    margin-top: 52px;
+    margin: 0;
     font-size: 16px;
   }
 }
@@ -1090,8 +1126,8 @@ html, body {
 @media (max-width: 37.5em) {
   .bgtext {
     font-size: 69px;
-    bottom: 35%;
-    right: -6%;
+    bottom: 25%;
+    right: -5%;
   }
 }
 
