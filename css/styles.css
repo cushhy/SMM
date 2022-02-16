@@ -539,6 +539,7 @@ html, body {
 }
 
 .mobiletech {
+  min-width: 463px;
   display: none;
 }
 
