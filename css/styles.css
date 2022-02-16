@@ -125,19 +125,8 @@ html, body {
 
 @media (max-width: 37.5em) {
   .container {
-    margin: 0;
-    max-width: 91vw;
-  }
-}
-
-.container.case {
-  max-width: 100%;
-}
-
-@media (max-width: 37.5em) {
-  .container.case {
-    margin: -25px auto 0 auto;
-    max-width: 92.5vw;
+    max-width: 90vw;
+    padding: 0 15px;
   }
 }
 
@@ -151,7 +140,7 @@ html, body {
 
 @media (max-width: 37.5em) {
   .header {
-    padding-top: 60px;
+    padding-top: 20px;
   }
 }
 
@@ -281,7 +270,7 @@ html, body {
 
 @media (max-width: 37.5rem) {
   .intro__inner {
-    padding: 100px 0 0 0;
+    padding: 60px 0 0 0;
   }
 }
 
@@ -478,7 +467,7 @@ html, body {
 
 @media (max-width: 37.5em) {
   .technology {
-    padding: 60px 0 40px 0;
+    padding: 55px 0 40px 0;
   }
 }
 
@@ -606,7 +595,7 @@ html, body {
 
 @media (max-width: 37.5em) {
   .technology__item {
-    font-size: 17px;
+    font-size: 19px;
     margin: 0 0 30px 15px;
   }
 }
@@ -1118,7 +1107,7 @@ html, body {
 }
 
 .discount {
-  padding: 96px 0 50px 240px;
+  padding: 96px 0 50px 0;
 }
 
 @media (max-width: 96.5em) {
@@ -1306,10 +1295,6 @@ html, body {
   .discount__img-mob {
     display: block;
   }
-}
-
-.discount__photo {
-  min-width: 917px;
 }
 
 @media (max-width: 76.3em) {
@@ -2207,6 +2192,14 @@ html, body {
   height: 24px;
   margin: 0;
   margin: 0 0 0 10px;
+}
+
+@media (max-width: 37.5em) {
+  .author__name img {
+    position: absolute;
+    top: -34px;
+    right: 83px;
+  }
 }
 
 .name {
