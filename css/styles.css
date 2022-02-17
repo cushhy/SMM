@@ -1419,7 +1419,7 @@ html, body {
 }
 
 .cooperation__suptitle {
-  margin: 0 0 5px 27px;
+  margin: 0 0 5px 0;
   color: #fff;
   font-family: FuturaBook;
   font-size: 22px;
@@ -1442,7 +1442,6 @@ html, body {
 }
 
 .cooperation__title {
-  margin-left: 27px;
   max-width: 676px;
   font-family: FuturaHeavy;
   font-size: 40px;
