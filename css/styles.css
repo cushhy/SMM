@@ -1487,7 +1487,8 @@ html, body {
 }
 
 .pcslider {
-  margin: 0 0 38px 0;
+  margin: 0 0 38px
+ 0;
 }
 
 @media (max-width: 37.5em) {
@@ -2880,7 +2881,7 @@ html, body {
 .text__top {
   position: absolute;
   top: 11.4%;
-  right: 14%;
+  right: 15%;
   font-family: FuturaHeavy;
   font-size: 71px;
   color: #28395B;
