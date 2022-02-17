@@ -1471,6 +1471,12 @@ html, body {
   }
 }
 
+.slick-slide {
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
 .slick-slide img {
   margin: 0 auto;
 }
@@ -2399,12 +2405,6 @@ html, body {
 .slick-list.moove {
   -webkit-transform: translate(1%, 1%);
           transform: translate(1%, 1%);
-}
-
-.slick-slider:focus {
-  outline: none !important;
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
 }
 
 .skobs__review {
