@@ -533,7 +533,6 @@ html, body {
   .mobiletech {
     display: block;
     margin: 0 auto;
-    margin-bottom: 30px;
   }
 }
 
@@ -1493,8 +1492,7 @@ html, body {
 }
 
 .pcslider {
-  margin: 0 0 38px
- 0;
+  margin: 0 0 38px 0;
 }
 
 @media (max-width: 37.5em) {
