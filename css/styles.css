@@ -916,8 +916,8 @@ html, body {
 
 @media (max-width: 37.5em) {
   .point:before {
-    top: 700%;
-    left: 36%;
+    top: 50px;
+    left: 90px;
   }
 }
 
