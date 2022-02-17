@@ -276,7 +276,7 @@ html, body {
 
 .intro__text {
   margin: 0 198px 0 0;
-  width: 50%;
+  width: 52%;
 }
 
 @media (max-width: 76.3em) {
@@ -460,12 +460,12 @@ html, body {
 }
 
 .technology {
-  padding: 165px 0 95px 0;
+  padding: 155px 0 85px 0;
 }
 
 @media (max-width: 37.5em) {
   .technology {
-    padding: 55px 0 40px 0;
+    padding: 49px 0 40px 0;
   }
 }
 
@@ -533,7 +533,7 @@ html, body {
   .mobiletech {
     display: block;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: -20px;
   }
 }
 
@@ -593,13 +593,13 @@ html, body {
 
 @media (max-width: 37.5em) {
   .technology__item {
-    font-size: 19px;
+    font-size: 18px;
     margin: 0 0 30px 15px;
   }
 }
 
 .result {
-  padding: 163px 0 163px 0;
+  padding: 163px 0 83px 0;
   position: relative;
   overflow: hidden;
   background-image: url(../assets/img/result_bg.png), linear-gradient(72.56deg, #152035 7.61%, #212F4A 84.9%);
@@ -616,7 +616,7 @@ html, body {
 
 @media (max-width: 37.5em) {
   .result {
-    padding: 40px 0 40px 0;
+    padding: 60px 0 40px 0;
     background: linear-gradient(72.56deg, #152035 7.61%, #212F4A 84.9%);
     background-repeat: no-repeat;
   }
@@ -1003,7 +1003,15 @@ html, body {
   fill: #FF9447;
 }
 
+.point--complete .bar__img {
+  fill: #FF9447;
+}
+
 .point--active .top__img {
+  opacity: 0.5;
+}
+
+.point--complete .top__img {
   opacity: 0.5;
 }
 
@@ -1080,6 +1088,7 @@ html, body {
 }
 
 .result__scrolldwn p {
+  margin: 0 0 10px 0;
   color: #FF9447;
   font-size: 22px;
   font-family: "FuturaMedium";
@@ -1089,6 +1098,7 @@ html, body {
   .result__scrolldwn p {
     margin: 0;
     font-size: 16px;
+    margin-bottom: 10px;
   }
 }
 
@@ -1100,7 +1110,7 @@ html, body {
 
 .bgtext {
   position: absolute;
-  top: 15%;
+  top: 13%;
   right: -1%;
   z-index: 1;
   color: #273857;
@@ -1139,7 +1149,7 @@ html, body {
 }
 
 .discount {
-  padding: 96px 0 96px 0;
+  padding: 96px 0 136px 0;
 }
 
 @media (max-width: 96.5em) {
@@ -1150,7 +1160,7 @@ html, body {
 
 @media (max-width: 37.5em) {
   .discount {
-    padding: 60px 0;
+    padding: 50px 0 25px;
   }
 }
 
@@ -1189,7 +1199,7 @@ html, body {
 }
 
 .discount__title {
-  max-width: 589px;
+  max-width: 662px;
   margin: 0 0 42px 0;
   font-family: "FuturaHeavy";
   font-size: 40px;
@@ -1409,7 +1419,7 @@ html, body {
 }
 
 .cooperation__suptitle {
-  margin: 0 0 10px 0;
+  margin: 0 0 5px 27px;
   color: #fff;
   font-family: FuturaBook;
   font-size: 22px;
@@ -1432,6 +1442,7 @@ html, body {
 }
 
 .cooperation__title {
+  margin-left: 27px;
   max-width: 676px;
   font-family: FuturaHeavy;
   font-size: 40px;
@@ -1540,7 +1551,7 @@ html, body {
 
 @media (max-width: 37.5em) {
   .slick-arrow.slick-prev {
-    left: -3%;
+    left: -6%;
     background: url(../assets/img/prevmob.svg) 0 0 no-repeat;
   }
 }
@@ -1552,7 +1563,7 @@ html, body {
 
 @media (max-width: 37.5em) {
   .slick-arrow.slick-next {
-    right: -3%;
+    right: -5%;
     background: url(../assets/img/nextmob.svg) 0 0 no-repeat;
   }
 }
@@ -1920,7 +1931,7 @@ html, body {
 
 @media (max-width: 37.5em) {
   .try {
-    padding: 60px 0 40px 0;
+    padding: 55px 0 40px 0;
     background: linear-gradient(72.56deg, #152035 7.61%, #212F4A 84.9%);
   }
 }
@@ -1932,9 +1943,9 @@ html, body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 @media (max-width: 76.3em) {
@@ -1973,6 +1984,7 @@ html, body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 45px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -1990,7 +2002,7 @@ html, body {
 }
 
 .try__title {
-  max-width: 500px;
+  max-width: 557px;
   margin: 0 0 40px 0;
   font-family: FuturaHeavy;
   font-size: 40px;
@@ -2093,12 +2105,12 @@ html, body {
 }
 
 .reviews {
-  padding: 124px 0 80px 0;
+  padding: 124px 0 100px 0;
 }
 
 @media (max-width: 37.5em) {
   .reviews {
-    padding: 35px 0;
+    padding: 35px 0 61px 0;
   }
 }
 
@@ -2238,7 +2250,7 @@ html, body {
   .author__name img {
     position: absolute;
     top: -34px;
-    right: 83px;
+    right: 73px;
   }
 }
 
@@ -2444,7 +2456,7 @@ html, body {
 
 @media (max-width: 37.5em) {
   .form {
-    padding: 35px 0 70px 0;
+    padding: 35px 0 60px 0;
     background: linear-gradient(72.56deg, #152035 7.61%, #212F4A 84.9%);
   }
 }
@@ -2497,7 +2509,7 @@ html, body {
 
 @media (max-width: 37.5em) {
   .form__suptitle {
-    font-size: 15px;
+    font-size: 18px;
   }
   .form__suptitle img {
     width: 16px;
