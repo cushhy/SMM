@@ -2616,8 +2616,14 @@ html, body {
 }
 
 .form__items li {
-  max-width: 500px;
+  max-width: 670px;
   color: #FF7428;
+}
+
+@media (max-width: 96.5em) {
+  .form__items li {
+    max-width: 500px;
+  }
 }
 
 .form__items li span {
@@ -2651,14 +2657,14 @@ html, body {
 .form__main {
   position: relative;
   z-index: 10;
-  padding: 51px 62px 46px 60px;
+  padding: 0 50px;
   background-color: #fff;
   border-radius: 15px;
 }
 
 @media (max-width: 96.5em) {
   .form__main {
-    padding: 50px;
+    padding: 0 50px;
   }
 }
 
@@ -2677,7 +2683,7 @@ html, body {
 }
 
 .form__name {
-  margin: 0 0 45px 0;
+  margin: 51px 0 45px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2744,7 +2750,7 @@ html, body {
 
 @media (max-width: 96.5em) {
   .form__name input {
-    padding: 20px 100px 20px 30px;
+    padding: 20px 150px 20px 30px;
   }
 }
 
@@ -2760,6 +2766,12 @@ html, body {
   position: absolute;
   right: 5%;
   bottom: 25%;
+}
+
+@media (max-width: 96.5em) {
+  .form__name {
+    margin: 30px 0 20px 0;
+  }
 }
 
 @media (max-width: 37.5em) {
@@ -2836,7 +2848,7 @@ html, body {
 
 @media (max-width: 96.5em) {
   .form__telephone input {
-    padding: 20px 100px 20px 30px;
+    padding: 20px 150px 20px 30px;
   }
 }
 
