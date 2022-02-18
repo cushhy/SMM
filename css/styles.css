@@ -1354,16 +1354,6 @@ html, body {
   }
 }
 
-.discount__img-mob {
-  display: none;
-}
-
-@media (max-width: 37.5em) {
-  .discount__img-mob {
-    display: block;
-  }
-}
-
 @media (max-width: 76.3em) {
   .discount__photo {
     text-align: center;
